@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    background-color: rgb(255, 159, 198);
+
+}
+
+.author-name {
+    font-family: Kanit, Arial;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 80px;
+    margin: 8px;
+}
+
+.author-bio {
+    font-family: Kanit, Arial;
+    font-weight: 200;
+    font-size: 40px;
+    margin: 1px;
+}
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120em ;
+    font-family: Kanit, Arial;
+    background-color: rgb(253, 232, 232);
+}
+
+.user-pfp {
+    width: 150px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgb(201, 231, 249);
+    padding: 4px;
+    margin-top: 10px;
+}
+
+.about-me {
+    width: 350px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.container-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.books-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.book-author {
+    font-size: 10px;
+    margin: 0;
+}
+
+.book-cover {
+    width: 134px;
+    height: 200px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.films-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.film {
+    display: flex;
+    flex-direction: column;
+}
+
+.film-cover {
+    width: 134px;
+    height: 200px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.bottom-container {
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.footer-link {
+    font-family: Kanit,Arial;
+    color: #000;
+    text-decoration-line: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
